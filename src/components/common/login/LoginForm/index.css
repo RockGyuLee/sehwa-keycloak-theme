@@ -1,0 +1,34 @@
+.form-container {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #888888;
+  box-shadow:
+    0 19px 38px rgba(0, 0, 0, 0.3),
+    0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.text-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.btn-login {
+  width: 100%;
+  background-color: var(--korail-color);
+  border: 0;
+  color: #ffffff;
+  border-radius: 10px;
+}
