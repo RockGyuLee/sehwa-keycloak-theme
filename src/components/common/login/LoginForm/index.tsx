@@ -6,7 +6,7 @@ import './index.css';
 const LoginForm = () => {
   return (
     <div className='form-container'>
-      <form method='post' action='/login' className='login-form'>
+      <div className='login-form'>
         <div className='text-input'>
           <p>아이디</p>
           <Input
@@ -27,7 +27,7 @@ const LoginForm = () => {
         <Button type='submit' className='btn-login'>
           로그인
         </Button>
-      </form>
+      </div>
     </div>
   );
 };
